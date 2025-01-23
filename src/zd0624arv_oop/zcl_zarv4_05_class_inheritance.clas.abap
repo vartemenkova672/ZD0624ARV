@@ -1,0 +1,19 @@
+CLASS zcl_zarv4_05_class_inheritance DEFINITION
+  public
+  final
+  create public .
+
+
+  PUBLIC SECTION.
+    INTERFACES if_oo_adt_classrun .
+
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+ENDCLASS.
+
+
+
+CLASS ZCL_ZARV4_05_CLASS_INHERITANCE IMPLEMENTATION.
+ENDCLASS.

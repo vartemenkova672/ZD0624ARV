@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>DB update function</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZARV4_DB_UPDATESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZARV4_DB_UPDATES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZARV4_UPDATE_AUTHOR</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>update of table records</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_AUTHOR</PARAMETER>
+       <TYP>ZARV4_D_AUTHOR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_AUTHOR_T</PARAMETER>
+       <TYP>ZARV4_D_AUTHOR_T</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CHANGE_AUTHOR</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CHANGE_AUTHOR_T</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_AUTHOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Author</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_AUTHOR_T</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Author texst</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CHANGE_AUTHOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CHANGE_AUTHOR_T</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Updates</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZARV4_UPDATETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZARV4_UPDATE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZARV4_NOM_UPDATES</FUNCNAME>
+     <SHORT_TEXT>Update master data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_NOMENCLATURE</PARAMETER>
+       <TYP>ZARV4_S_NOMENCLATURE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CREATE</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DELETE</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CHANGE</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_NOMENCLATURE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nomenclature</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CREATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DELETE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CHANGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZARV4_UPDATES</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Updates</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_TRANSACT</PARAMETER>
+       <TYP>ZARV4_D_TRANSACT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ADD_TRANSACT</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CHANGE_TRANSACT</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DELETE_TRANSACT</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ID_NUMBER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZARV4_RECORD_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_TRANSACT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>list of transactions</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ADD_TRANSACT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CHANGE_TRANSACT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DELETE_TRANSACT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ID_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Boolean Variable (X = True, - = False, Space = Unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Select specification</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZARV4_SELECT_SPECIFICTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZARV4_SELECT_SPECIFIC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZARV4_SELECT_SPECIFIC</FUNCNAME>
+     <SHORT_TEXT>Select specification</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LV_NOMENCLATURE_ID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZARV4_NOMENCLATURE_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>LT_SPECIFICATION</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ANY TABLE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DATA</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LV_NOMENCLATURE_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nomenclature ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_SPECIFICATION</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>There is no specification for the product</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

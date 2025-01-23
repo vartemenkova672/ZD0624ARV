@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Transaction date is not specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Transaction time is not specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Item ID is not specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Transaction quantity is not specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Transaction amount is not specified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>The &apos;Article&apos; field is required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>The &apos;Unit type ID&apos; field is required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>The &apos;Indication of use&apos; field is required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>The &apos;Nomenclature name&apos; field is required</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>There is no nomenclature type with code &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>There is no unit type with code &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>There is no specification for finished good with ID &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Item with ID &amp;1 is included in the specification.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>There is no nomenclature with ID &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>There are not enough balances of nomenclature with ID &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZARV4_MESSAGE_CLASS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Insufficient stock balance for write-off</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
